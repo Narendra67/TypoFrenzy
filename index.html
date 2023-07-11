@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <form id="contact-form" action="db.php" method="post">
+      <!-- Form fields here -->
+    </form>
+    <title>TypoFrenzy</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <h1 class="firstheading">Practice your typing</h1>
+        <a class="active" href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="contact.html" >Contact</a>
+      </div>
+    </nav>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    <div>
+      Click start to have a quote displayed. Type the quote as fast as you can!
+    </div>
+
+    <p id="quote"></p>
+    <p id="message"></p>
+    <div>
+      <input type="text" aria-label="current word" id="typed-value" />
+    </div>
+    <div>
+      <button id="start" type="button">Start</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
